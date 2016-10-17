@@ -4,5 +4,6 @@ i = 0
 
 while True:
     with open('asd', 'w+') as f:
-        f.write(i)
-    time.sleep(120)
+        f.write(str(i))
+    i += 1
+    time.sleep(60)    
